@@ -26,4 +26,4 @@ Darunter haben Sie eine Tabelle :
 * *Accès direct* : donne une url pour se connecter directement à Jeedom avec le compte en question
 
 [TIP]
-En cas de changement, n'oubliez pas de cliquer sur "sauvegarder".
+Im Falle einer Änderung, vergessen Sie nicht auf "Speichern" zu klicken.
