@@ -1,36 +1,36 @@
-= Rechte
+= Droits
 
-Hier können sie genau die Benutzerrechte auf den Seiten, die Geräte und Szenarien verwalten.
+C'est ici que vous allez pouvoir gérer finements les droits des utilisateurs sur les pages, équipements et scénarios.
 
-Erreichbar unter Verwaltung -> Erweiterte Rechteverwaltung :
+Accessible depuis Administration -> Gestion des droits avancés :
 
 image::../images/rights.png[]
 
-Einmal auf die Seite gelangt, gliedert sie sich in 3 Teile : Allgemein, Plugins/Geräte und Szenarios.
+Une fois dessus cette page se décompose en 3 parties : Général, Plugins/Equipements et Scénario.
 
-Oben finden sie den Login des Benutzers, für den sie die Rechte ändern wollen und die Speichern Schaltfläche.
+En haut à droite vous retrouvez le login de l'utilisateur pour lequel vous modifiez les droits et le bouton de sauvegarde
 
-[IMPORTANT]
-Wenn der Benutzer ein Admin ist, können sie ihm seine Rechte nicht beschränken. Man muß zuerst seine Admin Rechte deaktivieren.
+[WICHTIG]
+Si l'utilisateur est admin, vous ne pouvez lui restreindre ses droits. Il faut d'abord lui désactiver les droits admin
 
-== Allgemein
+== Général
 
 image::../images/rights2.png[]
 
-Hier ist nichts kompliziert, sie aktivieren oder deaktivieren das Recht auf Zugang zu der Seite oder die Funktionalität für den Benutzer.
+Rien de bien compliqué ici, vous activez ou non le droit d'accès à la page ou la fonctionalité pour l'utilisateur
 
-== Plugins/Geräte
+== Plugins/Equipements
 
 image::../images/rights3.png[]
 
-Hier können sie für jedes Gerät entscheiden, ob der Benutzer das Recht hat um das Amaturenbrett/Ansicht/Design zu sehen (Recht sehen) und ob er eine Aktion ausführen darf (Recht Aktion).
+Ici pour chaque équipement, vous pouvez décider si l'utilisateur à le droit de le voir sur le dahsboard/vue/design (droit voir) et si il peut faire une action dessus (droit action)
 
-== Szenario
+== Scénario
 
 image::../images/rights4.png[]
 
-Hier können sie die Rechte des Benutzers für die Szenarios festlegen : 
+C'est à partir de là que vous pouvez modifier les droits d'un utilisateur sur un scénario : 
 
-* *Ansicht* : Recht um das Szenario auf dem Armaturenbrett/Ansicht/Design zu sehen
-* *Bearbeiten* : 
-* *Aktion* : Recht, die Ausführung des Szenarios auf dem Armaturenbrett/Ansicht/Design zu erzwingen 
+* *Voir* : droit de voir le scénario sur le dashboard/vue/design
+* *Editer* : droit de modifier le scénario
+* *Action* : droit de forcer l'éxecution du scénario à partir du dashboard/vue/design
