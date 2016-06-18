@@ -34,7 +34,7 @@ image::../images/display3.png[]
 
 image::../images/display4.png[]
 
-* le nom de l'équipement
+* Gerätename
 * le type de l'équipement (identifiant du plugin auxquel il appartient)
 * une croix signifie que l'équipement est inactif (si elle n'y est pas alors l'équipement est actif)
 * un oeil barré signifie que l'équipement est invisible (si il n'y est pas alors l'équipement est visible)
@@ -46,13 +46,13 @@ Un double clic sur l'équipement permet aussi d'ouvrir la fenêtre de configurat
 
 * liste des commandes (la flèche) : permet de déplier la liste des commandes
 
-Si vous dépliez la liste des commandes vous obtenez : 
+Wenn Sie die Liste der Befehle entfalten erhalten Sie : 
 
 image::../images/display5.png[]
 
 Chaque bloc jaune correspond à une commande de votre équipement (un nouveau sur la petite flèche de l'équipement permet de les masquer). Si vous faites un double clic sur la commande ou que vous cliquez sur la petite roue crantée cela fera apparaitre la fenêtre de configuration
 
-== Configuration avancée d'un équipement
+== Erweiterte Geräte Konfiguration
 
 La fenêtre de configuration avancée d'un équipement est composée de 2 onglets : Informations et Affichages avancés. 
 
@@ -78,13 +78,13 @@ L'onglet information contient les informations générales de l'équipement :
 * *Tentative échoué* : nombre de tentatives de communications consécutives avec l'équipement qui ont échoué
 * *Dernière mise à jour* : date de dernière communication avec l'équipement
 
-=== Affichage avancé
+=== Erweiterte Anzeige
 
 image::../images/display10.png[]
 
 Dans cette partie vous allez pouvoir configurer certains comportements d'affichage de la tuile sur le dashboard, les vues, le design et en mobile.
 
-Vous pouvez : 
+Sie können : 
 
 * *Visible* : permet de masquer ou non l'équipement en desktop ou mobile
 * *Afficher le nom* : permet de masquer le nom de l'équipement sur la tuile en fonction du contexte (dashboard et design, vue ou mobile)
@@ -144,7 +144,7 @@ Pour une commande de type info :
 * *Type générique* : cette partie permet de configurer le type generique de la commande (jeedom essaye de le trouver par lui meme en mode auto). Cette information est utilisée par l'application mobile.
 * *Action sur la valeur* : cette partie permet de faire des sorte de mini scénario, vous pouvez par exemple dire que si la valeur vaut plus de 50 pendant 3 minutes alors il faut faire tel action. Cela permet par exemple d'eteindre une lumiere X minutes après que celle-ci se soit allumée
 * *Historique* : voir link:https://jeedom.com/doc/documentation/core/fr_FR/doc-core-history.html#_configuration_spécifique_par_commande[ici]
-* *Autres*
+* * Sonstige*
 ** *Ne pas répéter si la valeur ne change pas* : Si la commande remonte 2 fois la meme valeur d'affiler alors Jeedom ne prend pas en compte la 2eme remonté (evite de déclencher plusieurs fois un scénario par exemple si la valeur ne change pas)
 ** *Push URL* : permet de rajouter une URL à appeler en cas de mise à jour de la commande. Vous pouvez utiliser les tags suivant : \#value# pour la valeur de la commande, \#cmd_name# pour le nom de la commande, \#cmd_id# pour l'identifiant unique de la commande, \#humanname# pour le nom complet de la commande (ex : \#[Salle de bain][Hydrometrie][Humidité]#)
 
@@ -155,13 +155,13 @@ image::../images/display15.png[]
 * *Confirmer l'action* : lors d'une action a partir de l'interface sur cette commande Jeedom demandera une confirmation
 * *Code d'accès* : lors d'une action a partir de l'interface sur cette commande Jeedom demandera le code
 
-=== Affichage avancé
+=== Erweiterte Anzeige
 
 image::../images/display14.png[]
 
 Dans cettre partie vous allez pouvoir configurer certain comportement d'affichage du widget sur le dashboard, les vues, le design et en mobile.
 
-Vous pouvez : 
+Sie können : 
 
 * *Widget* : permet de choisir le widget sur dekstop ou mobile (à noter qu'il faut le plugin widget et que vous pouvez le faire aussi à partir de celui-ci)
 * *Visible* : permet de masquer ou non la commande en desktop ou mobile

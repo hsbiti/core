@@ -53,11 +53,11 @@ La sauvegarde dans le cloud permet à Jeedom d'envoyer vos sauvegardes directeme
 
 image::../images/backup3.png[]
 
-Puis dans l'onglet mes backups : 
+Dann in der Registerkarte meine Backups : 
 
 image::../images/backup4.png[]
 
-Vous pouvez, à partir de cette page, récupérer un backup ou acheter un abonnement (pour 1, 3, 6 ou 12 mois).
+Auf dieser Seite können Sie eine Sicherung abrufen oder Sie erwerben ein Abonnement (für 1, 3, 6 oder 12 Monate).
 
 [TIP]
 Vous pouvez mettre un nom de sauvegarde plus sympa à partir de l'onglet "Mes Jeedoms" en donnant un nom à ceux-ci.

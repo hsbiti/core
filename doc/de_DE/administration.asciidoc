@@ -18,7 +18,7 @@ Diese Registerkarte enthält allgemeine Informationen zu Jeedom :
 * *API Schlüssel* : Ihr API-Schlüssel, wird verwendet für jede Anfrage zur Jeedom-API  
 * *Systeme* : Zeigt den Hardwaretyp an
 * *Installationsschlüssel* : Hardware-Schlüssel zu Ihrem Jeedom auf dem Markt. Wenn Ihr Jeedom nicht in der Liste Ihrer Jeedom auf dem Markt erscheint ist es ratsam, auf diese Schaltfläche zu klicken
-* *Commande d'information utilisateur* : permet de spécifier une commande de type message qui sera utilisée par Jeedom pour vous communiquer des messages importants. Vous pouvez indiquer plusieurs commandes séparées par des &&
+* *Benutzerinformations Befehl* : ermöglicht es Ihnen, einen Befehl des Typs Nachrichten festzulegen, der von Jeedom verwendet wird, um wichtige Nachrichten zu übermitteln. Sie können mehrere Befehle durch && trennen.
 * *Sprache* : Ihre Sprache in Jeedom
 * *Cache Verfallszeit (Stunde)* : Lebensdauer der PHP-Sitzungen es wird er geraten, dort nicht zu ändern
 * *Datum und Uhrzeit* : Ihre Zeitzone
@@ -115,10 +115,10 @@ Siehe link:https://jeedom.com/doc/documentation/core/fr_FR/doc-core-interact.htm
 image::../images/administration6.png[]
 
 [IMPORTANT]
-Il n'est pas recommandé de modifier ces paramètres
+Es wird empfohlen, diese Einstellungen nicht zu ändern
 
 * *Rattrapage maximum autorisé (en minutes, -1 pour infini)* : délai de rattrapage maximum en minute pour un Job au cas où son lancement serait passé
-* *Crontask : temps d'exécution max (en minutes)* : durée maximum par défaut d'une tache cron
+* *Crontask : Maximale Ausführungszeit (in Minuten)* : die maximale dauer, standardmäßig für einen Cron-job
 * *Script : temps d'exécution max (en minutes)* : temps maximum d'exécution d'un script par défaut
 * *Temps de sommeil Jeecron* : temps de sommeil du cron principal (entre 1 et 59 secondes)
 * *Temps de sommeil des Démons* : temps de sommeil entre 2 cycles par défaut des démons
