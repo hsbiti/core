@@ -1,110 +1,110 @@
 = Diseño
 
-Cette page permet de configurer l'affichage de toute votre domotique de manière très fine. Celle-ci demande du temps mais sa seule limite est votre imagination.
+Utilice esta página para configurar la pantalla de la domótica de una forma muy fina. Toma tiempo pero su único límite es tu imaginación.
 
-Elle est accessible par 
+Es accesible por 
 
 image::../images/plan1.png[]
 
 [TIP]
-Comme vous pouvez le voir sur la capture il est possible d'aller directement sur un design grace au sous-menu
+Como se puede ver en la foto, es posible ir directamente a un diseño a través del submenú
 
-Voici un exemple de design :
+Aquí un ejemplo de diseño:
 
 image::../images/plan2.png[]
 
-Sur cette pas on retrouve, en haut (et dans l'ordre) : 
+En este  se encuentra en la parte superior (y en orden): 
 
-* un menu pour changer de design
-* un menu pour créer un nouveau design
-* un pour le supprimer
-* un bouton pour éditer le design en cours
-* un pour passer en mode plein écran
+* menú para cambiar el diseño
+* un menú para crear un nuevo diseño
+* uno para borrar
+botón para editar el diseño actual
+* uno para entrar en modo de pantalla completa
 
-Il vous suffit donc pour en créer un de cliquer sur le bouton d'ajout, une fenêtre va vous demander le nom de celui-ci : 
+Así que solo puedes crear uno haciendo clic en el botón Agregar, una ventana le pedirá el nombre del mismo: 
 
 image::../images/plan3.png[]
 
-Vous arrivez donc sur un design vide : 
+Así que usted tiene en un diseño vacío : 
 
 image::../images/plan4.png[]
 
-Il faut donc cliquer le bouton d'édition pour passer en mode édition : 
+Por lo tanto, haga clic en el botón Editar para cambiar el modo de edición: 
 
 image::../images/plan5.png[]
 
-Comme on peut le voir il y a un peu plus de boutons maintenant maintenant, ainsi que le cadre du design (que l'on peut changer bien sur).
+Como se puede ver, hay más botones ahora, así como el marco del diseño (que puede cambiar de tamaño).
 
-En haut à gauche on retrouve 2 boutons, celui pour éditer les propriétés du design en cours et celui pour le dupliquer.
+En la parte superior izquierda hay 2 botones, editar las propiedades del diseño actual y duplicarlo.
 
 [TIP]
-N'oubliez pas de sauvegarder après chaque modification
+No te olvides de guardar los cambios tras la modificación
 
-== Edition des proprietés du designs
+== Edición de las propiedades de los diseños
 
 image::../images/plan6.png[]
 
-On retrouve ici : 
+Encontrará aquí: 
 
-* *Général*
-** *Nom* : Le nom de votre design
-** *Icône* : Une icône pour celui-ci (apparait dans le menu de choix de design)
-** *Disponible sur téléphone* : Rend ce design visible dans la liste des designs en version mobile
-** *Image* : permet d'ajouter une image de fond au design
-** *Ne pas afficher la flèche de retour lors de la mise en plein écran* : en mode plein écran cette option masque le bouton de retour au mode fenêtré (idéal pour une tablette murale)
-* *Tailles*
-** *Taille (LxH)* : Permet de fixer la taille de votre design (cadre gris en mode édition)
-** *Proportion tablette (ex : 0.7)* : permet de changer la proportion du design sur tablette (pour le reduire par exemple tout en maitrisant encore la taille)
-** *Proportion téléphone (ex 0.5)* : permet de changer la proportion du design sur téléphone (pour le reduire par exemple tout en maitrisant encore la taille)
+* *General*
+** *Nombre* : El nombre del diseño
+** Icono *: un icono para él (aparece en el menú de opciones de diseño)
+** Disponible en el teléfono *: hace este diseño visible en la lista de diseños en versión móvil
+** Imagen *: permite añadir una imagen de fondo en el diseño
+** *No se muestran las flechas trasera en pantalla completa *: modo que oculta la opción de el botón "atrás" para volver al modo ventana (ideal para una tablet montada en pared)
+* *Tamaños *
+** *Tamaño (LxA)* : permite ajustar el tamaño de su diseño (marco gris en modo de edición)
+** *Proporción tablet (ex: 0.7) *: permite cambiar la proporción del diseño para tablet (para reducir por ejemplo todo el  cuadro de mandos)
+** *Proporción Teléfono (ex 0.5) *: permite cambiar la proporción del diseño en el teléfono (de la reducción por ejemplo mientras que el control de todo tamaño)
 
-== Ajout d'un widget
+== Agregar un widget
 
-Ensuite il faut ajouter des widgets à votre design, pour cela il faut cliquer sur le bouton d'ajout de widget : 
+Añadir widgets a su diseño, para esto usted deben hacer clic en el botón de añadir widget: 
 
 image::../images/plan7.png[]
 
-Une fois cliqué il vous faut choisir le widget : 
+Una vez clicado, elija el widget : 
 
 image::../images/plan8.png[]
 
-Vous voyez apparaître votre widget :
+Puedes ver tus widget :
 
 image::../images/plan9.png[]
 
 [TIP]
-Vous pouvez le déplacer en cliquant/glissant le widget
+Usted puede mover o arrastrar el widget haciendo clic o arrastrandolo
 
-Vous avez accès a la configuration avancée de l'affichage du widget en double cliquant sur celui-ci :
+Acceder a la configuración avanzada del widget, haciendo doble clic en él :
 
 image::../images/plan10.png[]
 
-Ici on a : 
+Aquí tenemos : 
 
-* *Général*
-** *Taille du widget* : permet de definir un ratio de taille de widget, par exemple ici il ne fera que 65% de sa taille
-** *Couleur de fond* : permet de changer la couleur de fond ou de le mettre transparent, ne pas oublier de passer "Defaut" sur NON
-** *Couleur des icônes et textes* : permet de changer la couleur des icônes et des textes (attention à bien passer défaut sur Non)
-** *Arrondir les angles (ne pas oublier de mettre %, ex 50%)* : permet d'arrondir les angles du widget, ne pas oublier de mettre le %
-** *Bordure (attention syntax css, ex : solid 1px black)* : permet d'ajouter une bordure, attention la syntaxe est HTML
-** *Profondeur* : permet de choisir le niveau de la profondeur, pour par exemple passer un widget par dessus un autre
-** *Ne pas afficher le nom de l'équipement* : masque le nom du widget, s'applique uniquement sur le design
-* *Spécifique* : permet de masquer certaines commandes du widget uniquement sur le design
+* *General*
+** El tamaño de widget *: permite definir una relación de tamaño del widget, por ejemplo aquí será sólo el 65% de su tamaño
+** *Color de fondo *: le permite cambiar el color de fondo o hacerlo transparente, por "Defecto" es no
+** *Color de iconos y textos *: permite cambiar el color de los iconos y textos (atención, por defecto es no)
+* **  Redondear las esquinas (no olvide añadir %, ej. 50%) *: utilizado para redondear las esquinas del widget, no olvides de poner el %
+** Reborde(ADVERTENCIA sintaxis css, ex: solid 1px black)* : permite añadir un borde, atención la sintaxis es HTML
+** Profundidad *: permite elegir el nivel de profundidad, por ejemplo para superponer un widget con otro
+** No mostrar el nombre del equipo *: oculta el nombre del widget, se aplica solamente al diseño
+* *Específica *: esconde algunos comandos del widget, sólo en el diseño
 
 [IMPORTANTE]
-En fonction des plugins certaines options peuvent ne pas marcher
+En función al plugin, algunas opciones pueden no funcionar
 
 [TIP]
-Vous pouvez en bas à droite redimensionner les widgets
+En la parte inferior derecha, usted puede cambiar el tamaño de los widgets
 
-== Ajout texte/html
+== Agregar texto/html
 
 image::../images/plan11.png[]
 
-Permet d'ajouter un texte ou du code html/javascript, une fois cliqué dessus vous obtenez : 
+Permite añadir un texto o código html/javascript, una vez que lo tienes hacer clic en: 
 
 image::../images/plan12.png[]
 
-Un double clic dessus vous ammène à la fenêtre de configuration : 
+Un doble clic abre la ventana de configuración : 
 
 image::../images/plan13.png[]
 
@@ -138,13 +138,13 @@ Un double clic dessus vous amènera à la configuration de cet élément scénar
 
 image::../images/plan17.png[]
 
-* *Général*
-** *Taille du widget* : permet de definir un ratio de taille de widget, par exemple ici il ne fera que 65% de sa taille
-** *Couleur de fond* : permet de changer la couleur de fond ou de le mettre transparent, ne pas oublier de passer "Defaut" sur NON
-** *Couleur des icônes et textes* : permet de changer la couleur des icônes et des textes (attention à bien passer défaut sur Non)
-** *Arrondir les angles (ne pas oublier de mettre %, ex 50%)* : permet d'arrondir les angles du widget, ne pas oublier de mettre le %
-** *Bordure (attention syntax css, ex : solid 1px black)* : permet d'ajouter une bordure, attention la syntaxe est HTML
-** *Profondeur* : permet de choisir le niveau de la profondeur, pour par exemple passer un widget par dessus un autre
+* *General*
+** El tamaño de widget *: permite definir una relación de tamaño del widget, por ejemplo aquí será sólo el 65% de su tamaño
+** *Color de fondo *: le permite cambiar el color de fondo o hacerlo transparente, por "Defecto" es no
+** *Color de iconos y textos *: permite cambiar el color de los iconos y textos (atención, por defecto es no)
+* **  Redondear las esquinas (no olvide añadir %, ej. 50%) *: utilizado para redondear las esquinas del widget, no olvides de poner el %
+** Reborde(ADVERTENCIA sintaxis css, ex: solid 1px black)* : permite añadir un borde, atención la sintaxis es HTML
+** Profundidad *: permite elegir el nivel de profundidad, por ejemplo para superponer un widget con otro
 * *Spécifique* : permet de masquer les commandes d'action sur le scénario
 
 [TIP]
@@ -166,7 +166,7 @@ Un double clic dessus vous amene sur la configuration avancée :
 
 image::../images/plan21.png[]
 
-On retrouve ici : 
+Encontrará aquí: 
 
 * *Nom* : permet de changer le nom du lien
 * *Lien* : destination du lien
